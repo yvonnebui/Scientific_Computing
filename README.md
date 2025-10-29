@@ -1,4 +1,4 @@
-# Scientific Computing
+# Scientific_Computing
 
 ## Group
 - **Name:** Yvonne Bui
