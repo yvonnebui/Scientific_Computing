@@ -1,5 +1,5 @@
-Exercise 2
-b)
+#Exercise 2
+##b)
 Test for x = 1
 poly:   -5987.000000000000000
 horner: -5987.000000000000000
