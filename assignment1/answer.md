@@ -42,4 +42,5 @@ D_n &= \frac{1}{d_0} + \frac{1}{d_0 d_1} + \frac{1}{d_0 d_1 d_2} + \ldots + \fra
 \end{align}
 $$
 
-### d3) sequence of values: 17
+### d3) 
+sequence of values: 17
