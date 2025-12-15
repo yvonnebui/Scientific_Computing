@@ -39,7 +39,7 @@ $$\frac{d}{dh} \left(C_1 h^2 + \frac{K_1 u}{h}\right) = 0 \implies h_{\text{opt}
 
 **Does $h$ roughly match your numerical observations from part a)?**
 Yes. Since $u \approx 10^{-16}$ (for double precision), the analysis predicts $h_{\text{opt}} = (10^{-16})^{1/3} \approx 10^{-5.33}$.
-This prediction closely matches the observed minimum error floor in the numerical results from part a) which occurred around $h = 10^{-6.0}$ to $10^{-7.0}$.
+This prediction closely matches the observed minimum error floor in the numerical results from part a) which occurred around $10^{-7.0}$.
 
 ## The Complex Step Method
 
