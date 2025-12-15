@@ -8,8 +8,7 @@ This happens because the computer has to subtract two numbers that are almost id
 which creates a large rounding error that ruins the result.
 
 ## The Complex Step Method
-This method is much better. Its error stays low and keeps decreasing until it hits the absolute
-limit of the computer's precision (around 10^-16).
+This method is much better. Its error stays low and keeps decreasing until it stabilizes around 10^-15.
 This method avoids the subtraction, which is why the problem above doesn't occur.
 
 # exercise 2b)
@@ -20,7 +19,7 @@ Its error remains dominated by subtractive cancellation at small h.
 
 ## The Complex Step Method
 The Complex Step Method is sensitive to the pollution.
-Its error stabilizes at a higher level (10^-14/-15), whereas it previously reached 10^-16.
+The error is slightly greater with 2.220446e-15, whereas it previously reached 1.776357e-15.
 
 # exercise 2c)
 
