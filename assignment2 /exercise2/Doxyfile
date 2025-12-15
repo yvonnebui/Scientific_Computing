@@ -1,0 +1,27 @@
+# Doxyfile for numerical_diff.c
+#
+# Generated with "doxygen -g" and customized.
+
+PROJECT_NAME           = "Scientific Computing Assignment 2"
+PROJECT_BRIEF          = "Numerical Differentiation Methods"
+OUTPUT_DIRECTORY       = doc
+INPUT                  = numerical_diff.c
+RECURSIVE              = NO
+FILE_PATTERNS          = *.c
+
+# Controls the output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+
+# Controls the code analysis
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOCUMENTED      = NO
+MARKDOWN_SUPPORT       = YES
+JAVADOC_AUTOBRIEF      = YES
+QUIET                  = YES
+WARNINGS               = NO
+
+
