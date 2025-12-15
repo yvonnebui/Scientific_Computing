@@ -2,8 +2,8 @@
 #include <stdio.h>    // for printf
 #include <stdlib.h>   
 #include <math.h>
-#include "axpy.h"
-#include <sys/time.h>
+#include "axpy.h"     
+#include <sys/time.h> // for time measurement
 
 double wtime() {
     struct timeval tv; 
