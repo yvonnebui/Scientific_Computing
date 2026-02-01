@@ -23,6 +23,7 @@ void free_matrix(Matrix *matrix);
 
 /**
  * \brief Parses a file and stored the data inside the matrix
+ * \param[in] filename path to the input file
  * \param [in,out] matrix struct of the matrix into which the data is parsed
  * \return returncode of 0 on success and not zero on failure to parse
  *
