@@ -69,10 +69,6 @@ int mp_iter_refinement(int n, double *A, double *b, double *x, int maxiter) {
     return 0;
 }
 
-/**
- * @brief Solves Ax = b using standard double precision LU factorization.
- * This function uses DGETRF for factorization and DGETRS for solving.
- */
 int basic_lu(int n, double *A, double *b, double *x) {
     int info;
     int *ipiv = malloc(n * sizeof(int));
@@ -95,10 +91,6 @@ int basic_lu(int n, double *A, double *b, double *x) {
     return info;
 }
 
-/**
- * @brief Solves Ax = b using double precision iterative refinement.
- * This function uses DGERFS to improve the solution accuracy.
- */
 int basic_iter_refinement(int n, double *A, double *b, double *x) {
     int info;
     int *ipiv = malloc(n * sizeof(int));
