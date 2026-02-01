@@ -17,7 +17,9 @@
 #include "dense_solvers.h" //for implemented function
 #include <time.h>
 
-// Helper function for time measurement for ex 1b
+/**
+ * @brief Helper function for time measurement for ex 1b
+ */
 static double get_time(void) {
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC, &ts);
