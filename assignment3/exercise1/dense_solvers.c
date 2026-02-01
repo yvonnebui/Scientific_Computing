@@ -1,3 +1,10 @@
+/**
+ * @file dense_solvers.c
+ * @brief Implementation of mixed-precision and standard iterative solvers.
+ * Contains the algorithmic logic for Task 1, utilizing BLAS and LAPACK 
+ * routines like GETRF and GETRS.
+ */
+
 #include <stdlib.h>
 #include <lapacke.h>
 #include <stdio.h>
@@ -32,7 +39,7 @@ int mp_iter_refinement(int n, double *A, double *b, double *x, int maxiter) {
     // convert first solution back to double and store in x
     for (int i = 0; i < n; i++) x[i] = (double)d_f[i];
 
-    // 3. iterative refinement loop in higher precision 
+    //  3. iterative refinement loop in higher precision 
     for (int iter = 0; iter < maxiter; iter++) {
 
         // r = b - Ax (in double), use BLAS for matrix vector product
