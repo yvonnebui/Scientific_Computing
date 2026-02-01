@@ -1,0 +1,31 @@
+# Doxyfile for Scientific Computing Assignments
+#
+# Generated with "doxygen -g" and customized.
+
+# Project information
+PROJECT_NAME           = "Scientific Computing Assignment 3"
+PROJECT_BRIEF          = "Documentation for the assignment source code"
+OUTPUT_DIRECTORY       = doc
+
+# Input files
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.c *.h
+
+# Controls the output
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = YES
+LATEX_OUTPUT           = latex
+
+# Controls the code analysis
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOCUMENTED      = NO
+MARKDOWN_SUPPORT       = YES
+JAVADOC_AUTOBRIEF      = YES
+
+# Warnings and verbosity
+QUIET                  = YES
+WARNINGS               = NO
+
